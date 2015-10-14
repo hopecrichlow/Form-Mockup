@@ -1,0 +1,57 @@
+.container {
+  width: 560px;
+  height: 1000px;
+  margin: 50px auto;
+  border: 2px solid gray;
+  border-radius: 6px; }
+
+.topbox {
+  background-color: #3E8ACC;
+  color: white;
+  height: 100px;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px; }
+  .topbox p {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 15px;
+    font-size: 30px; }
+
+.text-input {
+  width: 90%;
+  height: 100px;
+  margin: auto; }
+
+.select-input {
+  width: 80%;
+  height: 100px;
+  margin-left: 28px; }
+
+.text-input input {
+  width: 500px;
+  height: 75px;
+  margin: auto; }
+
+.select-input select {
+  width: 504px;
+  height: 75px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  margin: auto; }
+
+.botbox {
+  background-color: #C8DEF1;
+  height: 75px;
+  width: 100%;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray; }
+
+.subbut {
+  background-color: #3E8ACC;
+  border-radius: 2px;
+  border: 1px solid #287DC7;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: white;
+  width: 106px;
+  height: 35px; }
