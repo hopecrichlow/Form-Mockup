@@ -40,7 +40,8 @@
 
       if (item.type === 'text' || item.type === 'tel' || item.type === 'email' || item.type === 'textarea') {
         htmlBlock = textInput(item);
-      } else if (item.type === "select") {
+
+      } else if (item.type === 'select') {
         htmlBlock = selectInput(item);
       }
 
